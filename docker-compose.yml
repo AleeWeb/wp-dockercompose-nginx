@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  nginx:
+     image: nginx:stable-alpine
+     ports:
+       - "80:80"
+     volumes:
+        - ./wpdev-env.com/nginx/default.conf
+        - ./wordpress:/var/www/html:delegated # Helps speed up response time on MacOS files systems
+
+  mysql:
+      image: mysql:latest
+      environment:
+        MYSQL_DATABASE: wp
+        MYSQL_USER: wp
+        MYSQL_PASSWORD: wpsecret
+        MYSQL_ROOT_PASSWORD: wpsecret
+    
+  php: 
+    image: php:8.1.0alpha3-fpm-alpine
+    volumes:
+      - ./wordpress:/var/www/html:delegated
+
+  wordpress:
+    image: wordpress:latest
+    volumes:
+        - ./wordpress:/var/www/html:delegated
+    ports:
+        - "8000:80"
+    restart: always
