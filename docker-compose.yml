@@ -5,10 +5,10 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root@123
-      MYSQL_DATABASE: wpdb
-      MYSQL_USER: wpdb-user
-      MYSQL_PASSWORD: wpdb@123
+      MYSQL_ROOT_PASSWORD: ##
+      MYSQL_DATABASE: ##
+      MYSQL_USER: ##
+      MYSQL_PASSWORD: ##
     restart: always
   wordpress:
     image: wordpress:php7.3-fpm-alpine
@@ -18,12 +18,12 @@ services:
     depends_on:
       - mysql
     environment:
-      WORDPRESS_DB_HOST: mysql
-      MYSQL_ROOT_PASSWORD: root@123
-      WORDPRESS_DB_NAME: wpdb
-      WORDPRESS_DB_USER: wpdb-user
-      WORDPRESS_DB_PASSWORD: wpdb@123
-      WORDPRESS_TABLE_PREFIX: wp_
+      WORDPRESS_DB_HOST: ##
+      MYSQL_ROOT_PASSWORD: ##
+      WORDPRESS_DB_NAME: ##
+      WORDPRESS_DB_USER: ##
+      WORDPRESS_DB_PASSWORD: ##
+      WORDPRESS_TABLE_PREFIX: ##
     links:
       - mysql
     restart: always
@@ -41,8 +41,8 @@ services:
     image: phpmyadmin/phpmyadmin:5.0.1
     restart: always
     environment:
-      PMA_HOST: mysql
-      PMA_USER: root
-      PMA_PASSWORD: root@123
+      PMA_HOST: ##
+      PMA_USER: ##
+      PMA_PASSWORD: ##
     ports:
       - "5000:80"
