@@ -1,0 +1,95 @@
+.vs-hero-carousel {
+  &:hover {
+    .ls-arrow {
+      left: 80px;
+      opacity: 1;
+      visibility: visible;
+
+      &[data-ls-go="next"] {
+        left: auto;
+        right: 80px;
+      }
+    }
+  }
+}
+
+.ls-layer {
+  .vs-btn {
+    font-size: 14px;
+  }
+}
+
+.ls-btn-group {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: max-content;
+  gap: 5px;
+
+  .vs-btn.style1 {
+    margin-right: 20px;
+  }
+}
+
+.ls-center-def {
+  .ls-btn-group {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@media only screen and (min-width: 1921px) {
+  .ls-wrapper>.ls-layer.ls-hide-hd {
+    display: none !important;
+  }
+}
+
+@include sm {
+  .ls-btn-group {
+    .vs-btn {
+      padding: 18px 35px;
+      min-width: max-content;
+      height: auto;
+      width: auto;
+      line-height: 1;
+
+      &:before {
+        transform: skewX(0);
+      }
+    }
+
+    .vs-btn.style1 {
+      margin-right: 10px;
+    }
+  }
+}
+
+
+@include xs {
+  .ls-btn-group {
+    .vs-btn {
+      font-size: 12px;
+      padding: 14px 30px;
+      margin-right: 10px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .ls-center-xs {
+    position: relative;
+
+    .ls-btn-group {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+
+    }
+  }
+}

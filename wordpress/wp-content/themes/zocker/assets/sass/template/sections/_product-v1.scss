@@ -1,0 +1,70 @@
+.vs-product-layout1 {
+  .vs-product {
+    margin-bottom: 23px;
+  }
+
+  
+
+  .product-content {
+    .price {
+      display: block;
+      font-size: 36px;
+
+      del {
+        font-size: 0.7em;
+      }
+    }
+  }
+  
+  .category {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgba(255,255,255,0.7);
+    font-weight: 700;
+  }
+
+  .product-content {
+    padding-top: 33px;
+  }
+
+  .product-img {
+    background-color: #191c22;
+    position: relative;
+  }
+
+
+}
+
+.vs-product {
+  .label {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-image: $gradient;
+    font-weight: 700;
+    font-size: 10px;
+    color: $white-color;
+    @include equal-size(45px);
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+  }
+}
+
+
+@include lg {
+  .vs-product-layout1 {
+    .product-content {
+      padding-top: 15px;
+
+      .price {
+        font-size: 22px;
+      }
+    }
+    
+    .category {
+      letter-spacing: 0;
+    }
+  }
+}

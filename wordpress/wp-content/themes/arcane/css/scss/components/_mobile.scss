@@ -1,0 +1,1321 @@
+
+
+/***************************/
+/******** Mobile ********/
+/***************************/
+
+
+/*-----------------
+
+Mobile Fixes
+
+----------------*/
+
+@media (min-width: 768px){
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 992px){
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px){
+  .container {
+    width: 1170px;
+  }
+
+}
+@media (min-width:1328px) {
+  .container{
+    width: 1328px;
+  }
+}
+
+
+
+@media (max-width:1330px) {
+
+  .hide-on-shrink {
+    display: none;
+  }
+
+  body #buddypress .wpb_wrapper#members .members-list li, body #buddypress .members-list li {
+    width: 49%;
+  }
+  body #buddypress .profile #item-nav, body.my-account #buddypress #item-nav, body.profile #buddypress #item-nav, body.bp-user #buddypress #item-nav {
+    position: initial;
+    width:100%;
+  }
+  body .profile-info .nav-top-divider{
+    width: 110% !important;
+  }
+  body #buddypress div.item-list-tabs ul li {
+    width: 23%;
+    margin: 5px 1%;
+    border:1px solid black;
+  }
+  body .profile-info .avatar-card, body.my-account .profile-info .avatar-card {
+    top: 10px;
+    left:117px;
+  }
+  body #buddypress div.item-list-tabs#subnav ul li.last{
+    margin-top: 10px !important;
+    /* padding: 10px; */
+    margin-bottom: 10px !important;
+  }
+  .responsivehide{
+    display:none !important;
+  }
+
+}
+
+@media (max-width:1200px) {
+  .col-6.msidebar {
+    width: 100%;
+  }
+  .tournament-header .container{
+    padding-left:30px;
+    padding-right: 30px;
+  }
+  .mtournament-body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header .col-4:first-child {
+    display: none;
+  }
+  .team-page .tab-pane ul.matches-wrapper li{
+    width:100%;
+  }
+  .tbinfo ul li, .tbmapsi li {
+    width: 33%;
+    margin-bottom: 25px;
+  }
+  .tbinfo ul, .tbmapsi {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width:768px) {
+
+  body .modal-dialog {
+    margin: 60px auto;
+  }
+  .lead {
+    font-size: 21px;
+  }
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal dd {
+    margin-left: 180px;
+  }
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .form-inline .input-group>.form-control {
+    width: 100%}
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .form-inline .checkbox, .form-inline .radio {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .form-inline .checkbox input[type=checkbox], .form-inline .radio input[type=radio] {
+    float: none;
+    margin-left: 0;
+  }
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0;
+  }
+  .form-horizontal .control-label {
+    text-align: right;
+  }
+  .navbar-nav {
+    float:none !important
+  }
+  .nav-tabs-justified>li>a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs-justified>.active>a, .nav-tabs-justified>.active>a:focus, .nav-tabs-justified>.active>a:hover {
+    border-bottom-color: #fff;
+  }
+  body .navbar-collapse {
+    max-height: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+  }
+
+
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-header {
+    float: none;
+  }
+}
+@media (max-width:768px) {
+  ul.tournaments-list li .tlinfoextra {
+    display: none;
+  }
+  .form-half > p, .register-form-wrapper p label {
+    width: 100%;
+  }
+  .register-form-wrapper p {
+    margin-right: 0px !important;
+  }
+  .form-half {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .register-form-wrapper{
+    padding: 25px 20px;
+  }
+  .tournament-creation-wrap.col-9 h3{
+    margin: -25px -20px 25px -20px;
+  }
+  .tournament-creation-wrap.col-9 ul.tc-games li{
+    width:31%;
+  }
+  .mapscore span {
+    line-height: 100px;
+    font-weight: 600;
+    text-align: center !important;
+    position: relative;
+  }
+  .mapscore {
+    height: 100%;
+    min-width: 37%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .mmaps h3 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .friendswrapper {
+    position: absolute;
+    top: 190px;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    z-index: 30;
+  }
+  .friendswrapper .friends-count{
+    text-align: center;
+  }
+
+  .profile-fimage{
+    min-height:360px;
+  }
+  .match-header .col-4 h3 {
+    width: 100%;
+  }
+
+  .match-header{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  ul.news-small-list li {
+    width: 50%;
+    margin: 10px 0px;
+  }
+  ul.news-small-list{
+    flex-wrap: wrap;
+  }
+  .game-list li{
+    width: 49%;
+  }
+  .tbprice{
+    overflow-y:auto;
+    cursor:e-resize;
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+    }
+    &::-webkit-scrollbar:horizontal {
+      height: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      border: 2px solid #000;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background-color: #000;
+    }
+  }
+  .tbprice table{
+    min-width:1000px;
+    &.standings-table{
+      min-width:100%;
+    }
+  }
+
+  .tchall-date{
+    flex-wrap: wrap;
+    text-align: center !important;
+    justify-content: center;
+    * {
+      text-align: center;
+    }
+    select {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+    }
+    input:nth-of-type(1) {
+      margin: 10px 2% 0px 0px !important;
+      width: 48%;
+    }
+    input:nth-of-type(2) {
+      margin: 10px 0px 0px 2% !important;
+      width: 48%;
+    }
+  }
+
+  .team-creation-wrap.col-9 ul.tc-games-team li{
+    width: 48%;
+  }
+  .team-creation-wrap.col-9 .reg-team-platform > div {
+    width: 50%;
+  }
+  #score_fin{
+    top: initial;
+    bottom: -70px;
+  }
+
+  body .tbbrakets .tbbstagesw ul li{
+    -ms-flex: 0 0 32.5%;
+    flex: 0 0 32.5%;
+  }
+  html body.single-post{
+    background-position-y: 150px;
+    background-size:auto !important;
+  }
+  body #buddypress .wpb_wrapper#members .members-list li, body #buddypress .members-list li,
+  body .footer_widget.teamwarlist-page ul.teamwar-list li.teamwar-item, body .widget.teamwarlist-page ul.teamwar-list li.teamwar-item {
+    width:100%;
+    margin-top:20px;
+  }
+  body .thdescriptionleft, body .thdescriptionright, body .thinfoleft, body .thinforight{
+    width:100%;
+    float:none;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom: 30px;
+  }
+  body .thdescriptionw, body .thprice{
+    margin-bottom:0px;
+  }
+  body .tournament-header{
+    padding-bottom:0px;
+  }
+  html body .tournaments-list li, .footer_column {
+    width: 100% !important;
+  }
+
+
+  body.woocommerce .col-lg-8 ul.products li.product, .woocommerce-page .col-lg-8 ul.products li.product{
+    float:none !important;
+  }
+
+
+}
+
+
+@media (max-width:666px) {
+  .tc-forms .register-form-wrapper .prizes_wrapper.tbprice {
+    margin: 0px;
+  }
+  .match-header .col-4 .mtmembers{
+    text-align: center !important;
+  }
+
+  ul.tournaments-list li .tlinfoextra .tlist-join{
+    width: 100% !important;
+  }
+  .all-teams-page ul.teams-list li {
+    width: 100% !important;
+    margin: 0.5% 0% !important;
+  }
+  .title_wrapper .col-12 h1{
+    font-size: 50px;
+  }
+  ul.matchstats{
+    flex-wrap:wrap;
+  }
+  ul.matchstats li{
+    width: 100% !important;
+    margin: 10px 0px;
+  }
+  ul.matches-wrapper li a .mw-wrapper{
+    transform: scale(0.8);
+  }
+  .team-page .tab-pane ul.matches-wrapper li a .mw-wrapper > div.mw-mid{
+    margin: 25px 0px;
+  }
+  ul.matches-wrapper li a div.mw-wrapper > div{
+    width: 100%;
+    justify-content: center !important;
+    margin: 10px 40px;
+  }
+  body .modal-body .map{
+    width:auto;
+  }
+  body.woocommerce .col-lg-8 ul.products li.product, .woocommerce-page .col-lg-8 ul.products li.product{
+    width: 100%!important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    float:none !important;
+  }
+  body #buddypress div.item-list-tabs#subnav {
+    background: 0 0;
+    margin: 10px 0 0;
+    width: 100%;
+    position: relative;
+    float: none;
+    height: 50px;
+    padding-top: 60px;
+  }
+  .bbp-user-page #buddypress>#item-nav {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  body #buddypress div.item-list-tabs ul li {
+    width: 100%;
+  }
+
+  #buddypress div.item-list-tabs ul li {
+    float: none;
+  }
+  .members #buddypress div.item-list-tabs ul li {
+    width: 100%;
+  }
+}
+
+@media (max-width:600px){
+  .post-review{
+  width: -webkit-fill-available;
+  text-align: center;
+}
+  body.members #buddypress div.item-list-tabs#subnav ul li.filter#members-order-select{
+    display:none;
+  }
+  .prizes_wrapper{
+    overflow-x:scroll;
+    width:100%;
+  }
+  body .prizes_wrapper table{
+    min-width:0px;
+  }
+
+  body ul.news-main-list li {
+    width: 100% !important;
+    margin-left: 0% !important;
+  }
+  ul.tournaments-list li .tlinfow .tlist-info{
+    width: 70%;
+  }
+  ul.tournaments-list li .tlinfow{
+    flex-wrap: wrap;
+  }
+  .thinforight ul li {
+    width: 100%;
+  }
+  .container .tbinfo ul li, .container .tbmapsi li {
+    margin-bottom: 20px;
+    width: 100% !important;
+  }
+  body .prizes_wrapper table td {
+    display: block;
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  body .prizes_wrapper table tr:first-child {
+    display: none;
+  }
+  body .tbbrakets .tbbstagesw ul li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+
+}
+
+
+@media (max-width:480px) {
+
+  .tbinfo ul li, .tbmapsi li {
+    width: 100% !important;
+  }
+  .tc-forms .register-form-wrapper ul.tbmaps li {
+    width: 100%;
+  }
+  .tournament-creation-wrap.col-9 ul.tc-games li{
+    width: 48%;
+  }
+  ul.matches-wrapper li a .mw-wrapper {
+    transform: scale(0.6);
+  }
+  .title_wrapper .col-12 h1{
+    font-size: 30px;
+  }
+  .game-list li{
+    width: 99%;
+    margin-bottom: 3%;
+  }
+  ul.news-small-list li {
+    width: 100%;
+  }
+  #bbpress-forums li.bbp-forum-reply-count, #bbpress-forums li.bbp-forum-topic-count {
+    display:none;
+  }
+  #bbpress-forums li.bbp-forum-info{
+    width: 100%;
+  }
+  li.bbp-forum-info i.fa-comments-o, li.bbp-topic-title i.fa-comment{
+    display:none !important;
+  }
+
+  .members #buddypress div.dir-search input[type=text]{
+    width:100%;
+  }
+
+  body .social-top {
+    width: 100%;
+    text-align: center;
+  }
+  body .social-top a:first-child {
+    padding-left: 10px;
+  }
+  body .social-top a {
+    padding: 8px 7px 5px;
+  }
+  body .copyright p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  body .copyright .social {
+    float: left;
+    margin-left: 5px;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  body .social a {
+    margin: 10px 5px 5px 7px;
+  }
+
+  body .capch #captcha-form {
+    width: 100%;
+    margin-left: 0;
+  }
+
+
+  body .socialb-wrapper li {
+    width: 29%;
+  }
+
+  a.back-to-top {
+    margin: -105px auto 0!important;
+  }
+
+  .block_tabs .nav-tabs > li a {
+    font-size: 10px;
+  }
+
+  body .nm-teams .r-home-team {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    height: auto;
+    width: auto;
+  }
+
+  footer .nm-teams .r-home-team {
+    margin-left: 0;
+  }
+
+  footer .nm-teams .r-home-team {
+    margin-left: 0;
+  }
+
+  body .nm-teams .r-opponent-team {
+    margin-right: 5px!important;
+    float: none;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .nm-teams .versus {
+    width: 100%!important;
+    position: relative!important;
+    text-align: center!important;
+    top: 10px;
+  }
+
+  .nm-teams .r-home-team span, .nm-teams .r-opponent-team span {
+    height: auto!important;
+    display: block!important;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .owl-carousel .owl-wrapper-outer {
+    width: 87%;
+  }
+
+  .post-meta > img {
+    width: auto!important;
+  }
+
+  .newsbv .newsb-thumbnail {
+    width: auto!important;
+    margin-bottom: 10px;
+    margin-right: 0!important;
+  }
+
+  .tbregulations > ul, .tbmapsi li, .tbregulations .tab-content.wcontainer {
+    width: 100% !important;
+  }
+  .tbregulations > ul.nav-tabs>li {
+    width: 50%;
+    border-radius: 5px;
+  }
+
+  .tbregulations > ul.nav-tabs li a {
+    font-size: 10px;
+  }
+  body .profile-info .avatar-card, body.my-account .profile-info .avatar-card{
+    width: 200px;
+    left: 50%;
+    transform: translateX(-100px);
+  }
+  .profile-info .pmi_title {
+    /* position: relative; */
+    top: 220px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .my-account .page.normal-page, .my-account .page.normal-page .col-12 {
+    padding: 0px !important;
+  }
+  body .profile-info .avatar-card img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+  }
+  body .profile-fimage.profile-media .hiddenoverflow {
+    height: 350px;
+  }
+  body .profile-fimage {
+    margin-left: -10px;
+    margin-right: -10px;
+    min-height: 460px;
+    position: relative;
+  }
+  body .friendswrapper{
+    top: 287px;
+  }
+  body .popover-content {
+    max-width:100%;
+  }
+  body .editableform .form-control{
+    display:inline-block;
+  }
+  body .tbinfo ul {
+    overflow-x: scroll;
+    flex-wrap:wrap;
+  }
+  body .editable-container.popover{
+    min-width:0px;
+    width:100%;
+  }
+  #remove_regulation{
+    margin-left:0px !important;
+  }
+}
+
+@media (max-width:991px) {
+
+  .profile-info.row {
+    margin: 0px -35px;
+  }
+
+  .all-teams-page ul.teams-list li {
+    width: 49%;
+  }
+
+  .match-header .col-4 > a, .match-header .col-4:last-child > a, .match-header .col-4:last-of-type > a {
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+  }
+  .match-header .col-4:nth-child(2) {
+    margin: 30px 0px;
+  }
+  .tbinfo ul li, .tbmapsi li {
+    width: 50% !important;
+  }
+  .col-12, .col-8, .col-4, .col-9, .col-3, .col-7, .col-6{
+    width:100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  ul.news-main-list li {
+    position: relative;
+    width: 49% !important;
+    float:none;
+    height: auto !important;
+    min-height: 250px;
+  }
+  ul.news-main-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  ul.news-main-list li:first-child {
+    width: 100% !important;
+  }
+  .navbar-wrapper{
+    flex-wrap: wrap;
+  }
+  .navbar-wrapper .logo {
+    width: 100%;
+  }
+
+  body .user-wrap > a {
+    position: absolute;
+    left: -2px;
+    top: 4px;
+  }
+  body .container>.navbar-collapse{
+    border-top: 0px;
+    margin-top: -2px !important;
+    overflow:hidden;
+  }
+  body .container>.navbar-collapse.in{
+    max-height: 2000px;
+  }
+  body .cart-outer{
+    position:absolute;
+    right:0px;
+    display:none;
+  }
+  body .navbar-collapse .cart-outer{
+    display:block;
+  }
+  body #matches .mcomments, body #matches .mmaps{
+    width:100%;
+  }
+  #matches.user_matches .team-a img, #matches .team-b img{
+    height:auto !important;
+  }
+  body .navbar-collapse.collapse{
+    display:block !important;
+  }
+  .navbar-wrapper .user-wrap{
+    display:none !important;
+  }
+  .navbar-collapse .user-wrap, body .user-wrap.user-wrap-double{
+    margin-bottom: 0px;
+    padding-bottom: 12px;
+    display:inline-block !important;
+  }
+  .container .container{
+    width:auto;
+  }
+  .user-wrap .dropdown > li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  .navbar-collapse.in{
+    overflow-y:visible !important;
+  }
+  body .user-wrap .dropdown ul{
+    position: initial;
+    visibility: hidden;
+    display: none;
+  }
+  html .woocommerce nav.woocommerce-pagination ul{
+    float:none;
+  }
+  .bootstrap-wysihtml5-insert-image-modal{
+    width: 80%;
+  }
+
+  body .ubermenu-main .ubermenu-submenu.ubermenu-submenu-drop, body .ubermenu-main > ul li .ubermenu-tab-content-panel, body .ubermenu-main .ubermenu-item-level-0 > .ubermenu-submenu-drop {
+    background-image:none !important;
+  }
+
+  body{
+    background-position-y:100px !important;
+  }
+  .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse:not(.ubermenu-in-transition){
+    display:block !important;
+  }
+  html body .navbar-inverse .container{
+    padding: 0px 0px 0px 0px;
+  }
+
+  body .blog, body .normal-page, body .portfolio{
+    padding: 0px 15px;
+  }
+  body #matches .mversus{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+    text-align: center;
+    background: rgba(0,0,0,0.0);
+  }
+  body .container>.navbar-collapse{
+    padding: 0px !important;
+    margin: 0px !important;
+    max-height: 0px;
+    position: relative;
+    transition: all 0.35s ease;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+  }
+  body .mcttCo{
+    display:none;
+  }
+  body .navbar-nav > li{
+    float:none;
+  }
+  body .navbar-inverse .nav>li>a {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 1px 0 0;
+    text-shadow: 0 1px 2px #000;
+    opacity: .9;
+    float: none;
+    height: auto;
+    border-left: 0px;
+    box-shadow: none;
+  }
+  .ticker-title{
+    padding-left:25px;
+  }
+  body .navbar-collapse {
+    max-height: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+  }
+  .social-top{
+    display:none;
+  }
+  .nav-tabs.nav-justified>li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified>li>a {
+    margin-bottom: 0;
+  }
+  .psearch-content {
+    width: 49.6%;
+    display: inline-block;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-nav .open .dropdown-menu>li>a {
+    line-height: 20px;
+  }
+  .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-image: none;
+  }
+  #buddypress #admins-list li, #buddypress #friend-list li, #buddypress .members-list li, #buddypress #members-list-fn li, #buddypress #mods-list li, body.group-members #buddypress #members-group-list ul.item-list li{
+    width:100%;
+  }
+  .navbar ul{
+    border-top: 1px solid #202126;
+    background: black;
+  }
+  body .user-wrap {
+    padding: 0px;
+    height: auto;
+    box-shadow: none;
+    border: 0px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    float: none;
+    display:block !important;
+
+  }
+  body #buddypress div.item-list-tabs#subnav ul li.last{
+    width: auto;
+    margin-top: 30px !important;
+    margin-bottom: 10px;
+  }
+
+  body div[class*=vc_col-sm-] .teams-block ul li, body div[class*=vc_col-sm-] .teams-block ul li:nth-child(even), body div[class*=vc_col-sm-] .members-block ul li, body div[class*=vc_col-sm-] .members-block ul li:nth-child(even) {
+    width: 100%!important;
+  }
+  body .wpb_column>.wpb_wrapper>:last-child {
+    margin-bottom: 20px;
+  }
+  body .navbar-wrapper .login-info {
+    text-align: center;
+    border-top: 1px solid #000;
+    float: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
+  body .user-wrap a.btns.settings {
+    right: 165px;
+  }
+  body .user-wrap a.btns.cross {
+    right: 115px;
+  }
+  body .user-wrap a.btns {
+    left: initial!important;
+    right: initial!important;
+    width: 100%;
+    position: relative;
+    top: initial!important;
+    text-align: center;
+  }
+  .user-wrap a.btns.logout {
+    right: 215px;
+  }
+  body .navbar-nav {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 10px 10px;
+  }
+  body .navbar-collapse {
+    max-height: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+  }
+  body .social-top {
+    right: 0;
+  }
+  body div#mcTooltipWrapper.login-tooltip {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  body div#mcTooltipWrapper.login-tooltip #mcttCo {
+    display:none;
+  }
+  body .navbar-wrapper .login-info #login_tooltip .fas {
+    left: -15px;
+  }
+  body .dropdown-menu {
+    position: initial;
+    width: 100%;
+    height: 0;
+    display: none;
+  }
+  body .dropdown-menu:hover, body .dropdown:hover .dropdown-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+  }
+  body .navbar-collapse ul.nav li.megamenu>ul.sub-menu {
+    position: relative;
+    left: 0;
+  }
+  body .navbar-collapse ul.nav li.megamenu>ul.sub-menu li ul.sub-menu {
+    margin-bottom: 20px;
+  }
+  body .navbar-collapse ul.nav li.megamenu>ul>li {
+    width: 100%;
+    display: block!important;
+  }
+  body, body .nextmatch_wrap {
+    background-size: cover;
+  }
+  body .logo.col-lg-3 {
+    width: 100%;
+    text-align: center;
+  }
+  body .newsbv-item-first, body li.newsbh-item, body li.newsbh-item img, body li.newsbh-item:first-child, body li.newsbv-item, body > li.newsbv-item > img, body li.newsbv-item:first-child {
+    width: 100%!important;
+  }
+  body #matches .team-a, body #matches .team-a .teamimgw, body #matches .team-b, body #matches .team-b .teamimgw, body #matches .teammfs, body #matches .teammfs span, body #matches .match-fimage .mversus, body #matches .mminfo, body #matches .mminfow, body #matches .pmi_title, body .team-page .pmi_title {
+    position: initial;
+    width: 100%;
+    text-align: center;
+  }
+  body .team-page .pmi_title{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 230px;
+    z-index: 100000;
+    width: auto;
+    min-width: 300px;
+  }
+  div#score_fin {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .team-page .pmi_title h1 a{
+    margin: 5px auto;
+  }
+  .teamsocial {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile-fimage{
+    min-height: 370px;
+  }
+  body #matches .dots, body .profile-fimage.match-fimage .hiddenoverflow {
+    display: none;
+  }
+  body #matches .profile-fimage.match-fimage {
+    min-height: auto;
+    max-height: none;
+    height: auto;
+  }
+  body .team-page .team-nav {
+    margin-top: 20px;
+    position: initial;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  body .team-page .team-nav li, body .team-page .team-nav .team-setting {
+    width: 100%}
+  body .profile-fimage img {
+    max-width: none;
+  }
+  body .bx-wrapper img {
+    height: 100%!important;
+    width: auto!important;
+    min-width: auto!important;
+    max-width: none!important;
+  }
+  .footer_widget.teamwarlist-page .teamwar-list .playing, .footer_widget.teamwarlist-page .teamwar-list .scores, .footer_widget.teamwarlist-page .teamwar-list .upcoming, .widget.teamwarlist-page .teamwar-list .playing, .widget.teamwarlist-page .teamwar-list .scores, .widget.teamwarlist-page .teamwar-list .upcoming {
+    right: 0!important;
+    top: 0!important;
+    position: relative!important;
+    width: 100%!important;
+    margin-bottom: 15px!important;
+  }
+  .footer_widget.teamwarlist-page .teamwar-list .date, .widget.teamwarlist-page .teamwar-list .date, .widget.teamwarlist-page .match-wrap {
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .title_wrapper .col-lg-12 .col-lg-6 {
+    width: 50%!important;
+  }
+
+  #knockout_holder{
+    overflow:scroll;
+  }
+
+
+  body #buddypress div.item-list-tabs#subnav ul li.filter#members-order-select {
+    width: auto;
+    top: 0;
+    margin-top: 0px!important;
+    margin-bottom:0px;
+  }
+
+  .members #buddypress div.item-list-tabs ul li{
+    width:48%;
+  }
+  body .team-page .team-avatar-card {
+    left: 50%;
+    margin-left: -116px;
+    top: 55px;
+  }
+
+
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  body #matches ul.cmatchesw li, body #buddypress #admins-list li, body #buddypress #friend-list li, body #buddypress .members-list li, body #buddypress #members-list-fn li,
+  body #buddypress #mods-list li, html body.group-members #buddypress #members-group-list ul.item-list li{
+    width:100%;
+  }
+  body .thdescriptionleft, body .thdescriptionright, body .thinfoleft, body .thinforight, body .tbinfo ul li{
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+  }
+  body .tbinfo ul li{
+    margin-bottom:20px;
+  }
+  body .tournament-header{
+    padding-bottom:0px;
+  }
+  body .tournament-header, body .nav-top-divider{
+    margin-left:-15px;
+    margin-right:-15px;
+  }
+  body footer{
+    width:auto;
+  }
+  body .team-generali .team-members-mi li strong{
+    width:auto;
+    margin-right:10px;
+  }
+  .table-responsive>.table {
+    margin-bottom: 0;
+  }
+  .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+    white-space: nowrap;
+  }
+  .table-responsive>.table-bordered {
+    border: 0;
+  }
+  .table-responsive>.table-bordered>tbody>tr>td:first-child, .table-responsive>.table-bordered>tbody>tr>th:first-child, .table-responsive>.table-bordered>tfoot>tr>td:first-child, .table-responsive>.table-bordered>tfoot>tr>th:first-child, .table-responsive>.table-bordered>thead>tr>td:first-child, .table-responsive>.table-bordered>thead>tr>th:first-child {
+    border-left: 0;
+  }
+  .table-responsive>.table-bordered>tbody>tr>td:last-child, .table-responsive>.table-bordered>tbody>tr>th:last-child, .table-responsive>.table-bordered>tfoot>tr>td:last-child, .table-responsive>.table-bordered>tfoot>tr>th:last-child, .table-responsive>.table-bordered>thead>tr>td:last-child, .table-responsive>.table-bordered>thead>tr>th:last-child {
+    border-right: 0;
+  }
+  .table-responsive>.table-bordered>tbody>tr:last-child>td, .table-responsive>.table-bordered>tbody>tr:last-child>th, .table-responsive>.table-bordered>tfoot>tr:last-child>td, .table-responsive>.table-bordered>tfoot>tr:last-child>th {
+    border-bottom: 0;
+  }
+  body .search-top {
+    position: initial;
+    width: 100%;
+  }
+  body #sformm {
+    margin: 10px 15px 10px 0px;
+    position: relative;
+    overflow: hidden;
+    background: none;
+  }
+  body .navbar-inverse{
+    height: auto !important;
+  }
+  body .navbar-toggle {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+    background: #26262a;
+    width: 100%;
+  }
+  body .search-top{
+    display:none;
+  }
+  body #buddypress div.item-list-tabs ul li {
+    width: 100%;
+  }
+  body .navbar-header{
+
+    overflow: visible;
+    float: none;
+    margin: 0 auto!important;
+  }
+  body .ubermenu-responsive-toggle{
+    width:100%;
+    float:right;
+  }
+  body #sformm{
+    margin:0px;
+    display:none;
+  }
+  body #sform input[type=search], body #sformm input[type=search]{
+    padding: 13px 18px 12px 18px;
+  }
+  body #sform i.fa, body #sformm i.fa{
+    top: 15px;
+    left: 13px;
+  }
+  body ul.comment-list ul {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  body ul.children li {
+    padding-left: 0px;
+  }
+  body .unapproved{
+    padding-left: 60px;
+    display: block;
+  }
+
+  body .tlistinfo {
+    padding-left: 0;
+    margin: 10px 0;
+    display: block;
+  }
+
+  body .tlistjoin {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media (min-width:992px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+}
+@media (min-width:991px) {
+
+  .bootstrap-wysihtml5-insert-image-modal{
+    width: 500px;
+  }
+  body .navbar-nav > li {
+    float:left;
+    display: inline-block;
+  }
+  .width-850{
+    width:850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .navbar-inverse .container {
+    position: relative;
+    height: 41px;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .navbar-toggle, .navbar-header form {
+    display: none;
+  }
+  collapse.collapse {
+    display: inline-block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+  }
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  .navbar-right .dropdown-menu-left {
+    right: auto;
+    left: 0;
+  }
+  .nav-tabs.nav-justified>li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs.nav-justified>li>a {
+    margin-bottom: 0;
+  }
+  .psearch-content {
+    width: 49.6%;
+    display: inline-block;
+  }
+
+  .nav-tabs.nav-justified>li>a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border-bottom-color: #fff;
+  }
+  .nav-justified>li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-justified>li>a {
+    margin-bottom: 0;
+  }
+  .navbar-header {
+    float: left;
+  }
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: inline-block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+  }
+
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  body .navbar-collapse.in {
+    max-height: 2000px;
+  }
+  body .navbar-fixed-top .navbar-collapse,
+  body .navbar-static-top .navbar-collapse,
+  body .navbar-fixed-bottom .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width:1200px) and (min-width:992px) {
+  .navbar-wrapper > .col-lg-4 {
+    display: none;
+  }
+  .navbar-wrapper > .col-lg-4.logo {
+    display: block;
+  }
+}

@@ -1,0 +1,232 @@
+
+/* Tournament Registration */
+
+
+.form-half {
+  display: flex;
+
+   > p {
+    width: 49%;
+
+     &:first-child{
+       margin-right: 2%;
+     }
+
+  }
+
+}
+.tournament-creation-wrap.col-9 {
+  margin: 0 auto 0 auto;
+  float: none;
+
+  h3 {
+    background: #00000040;
+    padding: 20px;
+    margin: -25px -50px 25px -50px;
+  }
+
+
+  ul.tc-games {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height:500px;
+    &:hover li:not(:hover) {
+      filter: grayscale(100%);
+      opacity: 0.5;
+    }
+    h2 {
+      margin: 50px 0px 30px 0px;
+      text-align: center;
+      width: 100%;
+    }
+    li {
+      width: 18%;
+      background-color: #1c222b;
+      margin-bottom: 2%;
+      margin-left: 1%;
+      margin-right: 1%;
+      cursor: pointer;
+      height: 170px;
+      transition: all 0.35s ease;
+      -webkit-transition: all 0.35s ease;
+      -moz-transition: all 0.35s ease;
+      position: relative;
+      border:2px solid #1c202b;
+      background-size: cover;
+      background-position: top center;
+
+        span {
+        position: absolute;
+        width: 100%;
+        background: #2a303d;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 5px 10px;
+        bottom: 0px;
+        left: 0px;
+        font-weight: 300;
+        font-size: 14px;
+      }
+
+    }
+  }
+}
+
+.tc-games-show{
+  -webkit-animation: tcgamesshow 1.5s forwards;
+  animation: tcgamesshow 1.5s forwards;
+  max-height: 1000px;
+}
+.tc-form-hide{
+  animation-delay: 2s;
+  -webkit-animation: tcformhide 1.5s forwards;
+  animation: tcformhide 1.5s forwards;
+}
+.tc-games-hide{
+  -webkit-animation: tcgameshide 1.5s forwards;
+  animation: tcgameshide 1.5s forwards;
+  max-height: 1000px;
+  overflow: hidden;
+}
+.tc-form-show {
+  animation-delay: 2s;
+  -webkit-animation: tcformshow 1.5s forwards;
+  animation: tcformshow 1.5s forwards;
+}
+.tc-forms {
+  margin-top: 30px;
+  opacity:0;
+  overflow: hidden;
+  max-height:0px;
+  .publish_tournament img {
+    top: 6px;
+    position: relative;
+  }
+  > span {
+    display: block;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    cursor: pointer;
+    transition: all 0.35s ease;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    &:hover {
+      color: white;
+    }
+    i {
+      margin-left: 5px;
+    }
+  }
+  .register-form-wrapper{
+    margin-bottom:30px;
+
+    .makeptour {
+      display: flex;
+      input {
+        margin-right: 10px;
+        position: relative;
+        top: 2px;
+        margin-left: 0px;
+      }
+    }
+    .prizes_wrapper.tbprice {
+      margin: -26px -51px -26px -50px;
+       td {
+         span{
+           position: relative;
+           top: -4px;
+         }
+         .tournament-table_prize {
+           input[type="text"] {
+             margin-bottom: 0px;
+           }
+         }
+       }
+    }
+    p span {
+      display: block;
+      margin-bottom: 10px;
+    }
+    ul.tbmaps {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      li {
+        width: 31%;
+        margin: 1%;
+        background: #2d3239;
+        text-align: center;
+        padding-bottom: 12px;
+        cursor: pointer;
+        border: 2px solid #181c22;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        img {
+          width: 100%;
+          margin-bottom: 6px;
+        }
+      }
+
+    }
+
+  }
+}
+
+
+@-webkit-keyframes tcgameshide {
+  0% { max-height: 1000px; opacity: 1; min-height:500px; }
+  100% { max-height: 0px; opacity:0; min-height:0px;}
+}
+@-webkit-keyframes tcgamesshow  {
+  0% { max-height: 0px; opacity:0; min-height:0px;}
+  100% { max-height: 1000px; opacity: 1; min-height:500px;}
+}
+@-webkit-keyframes tcformshow {
+  0% { max-height: 0px;opacity: 0;  }
+  100% { max-height: 15000px;opacity:1;  }
+}
+@-webkit-keyframes tcformhide {
+  0% { max-height: 15000px;opacity:1;  }
+  100% {  max-height: 0px;opacity: 0; }
+}
+.page-template-tmp-tournament-creation{
+
+  .title_wrapper {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    .col-12 {
+      h1{
+        font-size: 40px;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+      }
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+.flatpickr-month{
+  color:white !important;
+}
+
+.page-template-page-user-registration .title_wrapper{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.page-template-page-user-registration .title_wrapper .col-12 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.page-template-page-user-registration .title_wrapper .col-12:before {
+  display: none;
+}

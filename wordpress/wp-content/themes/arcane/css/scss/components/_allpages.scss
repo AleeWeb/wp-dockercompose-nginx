@@ -1,0 +1,19 @@
+.all-tournaments-form label, .all-teams-form label {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.all-tournaments-form label input[type=text], .all-teams-form label input[type=text] {
+  margin-right: 20px;
+  min-height: 46px;
+  margin-bottom:0px;
+}
+
+.all-teams-page ul.teams-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.all-teams-page ul.teams-list li {
+  width: 32.33%;
+  margin: 0.5% 0.5%;
+}

@@ -1,0 +1,97 @@
+/*Tooltip UI component by www.menucool.com */
+
+/*For tooltip box*/
+div#mcTooltip
+{
+    line-height:16px;
+    border-radius:3px; /*Rounded corners. N/A for IE 8 and below.*/
+	float: left;
+	border-style: solid;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+
+}
+.navbar-wrapper .login-tooltip div#mcTooltip label {
+	font-size: 11px;
+	position: relative;
+	top: -3px;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.navbar-wrapper .login-tooltip div#mcTooltip #LoginWithAjax_Links_Remember {
+	float: right;
+	font-size: 11px;
+	margin-top: 0px;
+	padding-right: 0!important;
+}
+
+/*Close button. Available when sticky or overlay has been set to true, or is on iPhone, iPad, Android, BlackBerry, or IEMobile devices. */
+div#mcttCloseButton
+{
+    width:45px;height:13px;position:absolute;background-image:url(../img/closeBtn.gif);cursor:pointer; overflow:hidden;
+    top:12px; right:14px; left:auto;
+}
+
+/* Only applies when overlay has been set to true or 1 */
+div#mcOverlay
+{
+    background-color: black;
+    opacity:0.5; filter: alpha(opacity=50);
+    display:none;top:0;left:0;width:100%;height: 100%;overflow:visible;z-index:4;
+}
+
+/*Only available when calling by tooltip.ajax(...). It will be a spinning image indicating a request is in progress.*/
+div#tooltipAjaxSpin {margin:20px 50px; background:transparent url(loading.gif) no-repeat center center; width:50px; height:30px; font-size:0;}
+
+/*The settings below should remain unchanged*/
+div#mcTooltipWrapper {
+	position:absolute;
+	overflow:visible;
+	z-index:9999999999;
+	top: -5000px;
+	left: -100%;
+	width: 350px;
+	opacity:0;
+	border: 1px solid black;
+	background: #1d222b;
+	padding: 0px 20px 20px 20px;
+}
+div#mcTooltipWrapper.login-tooltip{
+	left: initial;
+	right:5%;
+	top: -5000px;
+	margin-top: 35px;
+}
+div#mcTooltipWrapper.login-tooltip #mcttCo{
+	right: 10%;
+}
+div.mcTooltipInner {float:left;position:relative;width:auto;height:auto;}
+div#mcttCo {
+	position: absolute;
+	top: -10px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #000000;
+}
+
+/*workable with bootstrap*/
+div#mcTooltip, div#mcTooltip div {
+     -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing:content-box;
+}
+
+#mcTooltip input[type="text"], #mcTooltip input[type="password"]{
+	width:100%;
+	border:1px solid #000;
+	background:#1a1b1f;
+	padding: 10px 5px;
+	margin-bottom: 15px;
+	color:white;
+}
+

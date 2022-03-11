@@ -1,0 +1,1503 @@
+
+/* Tournament single page */
+
+.popover-content ul.wysihtml5-toolbar .btn {
+  width: 96%;
+}
+.popover-content ul.wysihtml5-toolbar li {
+  width: 33%;
+}
+.popover-content ul.wysihtml5-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+body .tournaments_block_single .tournaments-list li{
+  margin:0px;
+  margin-left:0px;
+  margin-bottom:0px;
+  width:100%;
+  background-size:cover !important;
+}
+body .tournaments_block_single .tournaments-list h4{
+  font-weight: 700 !important;
+}
+body .tournaments_block_single .wcontainer, body .tournaments_block_single .wcontainer .tournaments-list{
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-bottom:0px
+}
+body.page .tournaments_block_single .wcontainer li h4 {
+  margin-bottom: 25px;
+}
+
+.tournaments_block_single .tlistinfo{
+  margin-left:20px;
+  padding-left:0px;
+  margin-top: 0;
+}
+
+.tournaments_block_single .tlistjoin, .tournaments_block_single .tlistpremium{
+  position: absolute;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.tournament-header{
+  min-height:205px;
+  position:relative;
+  padding-top: 50px;
+  padding-bottom:50px;
+  margin-bottom: 0px;
+  background-position-y:-150px;
+  overflow:visible;
+  z-index:9;
+}
+.tournament-header .tournament-finished{
+  margin-top: -50px;
+}
+.tournament-header .dots{
+  z-index:1;
+}
+.tournament-header .container{
+  position:relative;
+  z-index:9999;
+}
+.thdescriptionw{
+  margin: 13px 0 40px;
+}
+.thdescriptionleft{
+  margin-bottom: 0px;
+  float: left;
+  width: 55%;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.thdescriptionleft .jtournamentb img, .thdescriptionleft .ltournamentb img{
+  background: 0px;
+  border: 0px;
+  box-shadow: none;
+  margin-right: 0px;
+}
+.thdescriptionleft a.btn.edit {
+  margin-top: 20px;
+}
+.premium-tag{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffbd00;
+}
+.premium-tag i {
+  font-size: 18px;
+  position: relative;
+  bottom: -2px;
+  margin-right: 4px;
+}
+.thdescriptionleft .premium-tag, .tournaments-list .premium-tag, .tournaments_block_single .premium-tag {
+  color: #ffc400;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bolder;
+  position: relative;
+  top: -10px;
+}
+.tournaments-list .premium-tag, .tournaments_block_single .premium-tag {
+  top:2px;
+}
+.thdescriptionright{
+  margin-left:55%;
+
+}
+.thdescriptionright ul.wysihtml5-toolbar a.btn{
+  background:rgb(38, 38, 47);
+  height: 40px;
+}
+.thdescriptionright ul.wysihtml5-toolbar a.btn:hover {
+  color: white;
+  background: rgb(26, 26, 32);
+}
+.thdescriptionleft h1{
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight:700;
+  margin: 0px 0px 25px;
+}
+.thdescriptionleft h1 span{
+  display: block;
+  font-size: 12px;
+}
+.thdescriptionleft h1 span a{
+  font-size:12px;
+}
+.thdescriptionleft img{
+  margin-right: 25px;
+  float: left;
+  max-width: 100px;
+  margin-top: auto;
+  padding: 3px;
+  background-color: #1d1d1d;
+  border: 1px solid #000;
+  background-image: -webkit-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: -moz-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: -o-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: radial-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+
+.tournament-header .hiddenoverflow {
+  height: 205px;
+  position: relative;
+  margin-top: -56px;
+  z-index: 1;
+}
+
+.thdregistration{
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+.thdregistration p{
+  text-transform: uppercase;
+  padding-right: 5px;
+  padding-bottom: 6px;
+  margin:0px;
+  text-shadow: 0px 1px 3px rgba(0,0,0,1);
+  color: #bbb;
+}
+.thdregistration span{
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+.thdtext {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  word-wrap: break-word;
+  opacity:1;
+}
+#regulations_containters .regulation_text a, #regulations_containters .regulation_text a:hover,
+.t_edit_wrapper .thdtext a, .t_edit_wrapper  .thdtext a:hover{
+  font-size: 13px;
+  text-transform: none;
+  font-weight: 700;
+  line-height: 26px;
+  word-wrap: break-word;
+  opacity: 1;
+}
+.accordion-group .active .regulation_text a:hover{
+  color:white !important;
+}
+.t_edit_wrapper .thdtext a i, #regulations_containters a i {
+  font-size: 13px;
+  top: 0px;
+}
+.thinfoleft {
+  float: left;
+  width: 55%;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.thinfoleft h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 0 10px;
+  font-weight: 600;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.thinfoleft h2 strong {
+  color: #fff;
+}
+.thinfoleft form.form-inline.editableform {
+  padding: 20px;
+}
+.thprice {
+  font-size: 12px;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0px;
+  width: 50%;
+  margin-bottom: 25px;
+}
+.thprice h3{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  color: #ffd800;
+}
+
+.thprice h4{
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.thinforight{
+  margin-left: 55%;
+}
+.thinforight h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 0 30px;
+  font-weight: 600;
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.thinforight ul {
+  list-style:none;
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -.31em;
+  word-spacing: -.43em;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.thinforight ul li {
+  font-size: 12px;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 5px 0 30px;
+  width: 50%;
+  margin-bottom: 25px;
+}
+.thinforight ul li img, .thprice img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.thinforight ul li h3{
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 4px;
+  padding:0px;
+  font-size:16px;
+  text-shadow: 0px 1px 3px rgba(0,0,0,1);
+  word-break: break-word;
+}
+
+.thinforight ul li span{
+  font-size: 11px;
+  display: block;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 3px rgba(0,0,0,1);
+  color: #bbb;
+  font-weight: bold;
+}
+.thinforight ul li.tbparticipants .control-group.form-group,
+.thinforight ul li.tblocation .control-group.form-group{
+  margin-top:10px;
+}
+.thinforight ul li.tbparticipants .control-group.form-group input[type='text']{
+  width: 70px;
+}
+.thinforight ul li span.editable-clear-x{
+  right:10px !important;
+}
+.button-small.jtournamentb.disabled, .button-small.jtournamentb.disabled:hover, .button-small.ltournamentb.disabled, .button-small.ltournamentb.disabled:hover{
+  opacity: 0.8;
+  background: grey;
+  box-shadow: none;
+  color: #ccc;
+  border:1px solid black;
+}
+.button-small.jtournamentb.disabled:hover, .button-small.ltournamentb.disabled:hover{
+  opacity: 0.6 !important;
+}
+.jtournamentb, .ltournamentb{
+  text-shadow:0px 1px 3px rgba(0,0,0,0.7);
+}
+.jtournamentb i, .ltournamentb i {
+  margin-right: 5px;
+}
+.mtournament-body {
+  padding:35px 0px 35px 0px;
+  position:relative;
+}
+.mtournament-body h2 {
+  color: #c7d5eb;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 0 20px;
+  font-weight: 600;
+}
+
+.tbinfo, .tbmaps, .tbprice, .tbteams, .tbregulations, .tbbrakets{
+  margin-bottom:70px;
+}
+.tbinfo ul{
+  display:flex;
+}
+.tbinfo ul, .tbmapsi{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: 0 0;
+}
+.tbinfo ul li{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-left: 2px solid #8c8c7c;
+}
+
+.tbinfo ul li h3{
+  color: #A2AEB8;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 11px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top:0px;
+  float:left;
+  clear:both;
+}
+.tbinfo ul li span{
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+  color: #ffffff;
+  float: left;
+  font-weight: 600;
+  clear:both;
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+}
+.game_chooser{
+  cursor:pointer;
+}
+#GameChooserModal .modal-body{
+  padding:15px 0px;
+}
+#GameChooserModal .modal-header {
+  position: relative;
+}
+
+#GameChooserModal .modal-header button {
+  position: absolute;
+  top: 6px;
+  right: -5px;
+  padding: 2px 5px;
+  border: 1px solid transparent;
+}
+#GameChooserModal .modal-body ul{
+  padding:0px;
+  margin:0px;
+}
+#GameChooserModal .modal-body ul li {
+  list-style: none;
+  padding: 5px 10px 5px 5px;
+  display: inline-block;
+  width: 31%;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+  border: 1px solid #000;
+  background-image: -webkit-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: -moz-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: -o-linear-gradient(bottom, #1a1b1f, #2a2a34);
+  background-image: radial-gradient(ellipse farthest-corner at center 0px,#31a2a6 -150%,#333240 45%,#333240 85%);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+}
+#GameChooserModal .modal-body ul li:hover{
+  color:#eee;
+  -o-box-filter: brightness(120%);
+  -moz-box-filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+#GameChooserModal .modal-body ul li img{
+  margin-right: 6%;
+  border: 1px solid black;
+  width: 35%;
+  height: 75px;
+}
+#GameChooserModal .modal-body ul li span{
+  display: inline-block;
+  width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tbmapsi li{
+  width: 25%;
+  display: block;
+  position: relative;
+  float: left;
+  padding: 2px;
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+  -o-box-filter: brightness(100%);
+  -moz-box-filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
+}
+.tbmapsi li:hover, .tbmapsi li.selected_map{
+  -o-box-filter: brightness(120%);
+  -moz-box-filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+  cursor:pointer;
+}
+.tbmapsi li *{
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+}
+.tbmapsi li h3{
+  position: absolute;
+  top: 39%;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  margin: 0px;
+  /* margin-top: -46px; */
+  color: #eee;
+  text-shadow: 0px 1px 5px black;
+  font-weight: 700;
+}
+.tbmapsi li img{
+  max-width:100%;
+  width:100%;
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+  min-height:205px;
+}
+.tbmapsi li > div {
+  border:1px solid black;
+}
+.tbmapsi li > div > div {
+  height: 205px;
+  overflow: hidden;
+  position:relative;
+}
+.tbmapsi.three_maps li img, .tbmapsi.two_maps li img{
+  height:auto;
+}
+.tbmapsi.three_maps li{
+  width:33.33%
+}
+.tbmapsi.two_maps li{
+  width:50%;
+}
+.tbprice table{
+  width: 100%;
+  margin-bottom: 0px;
+  text-align: left;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+.tbprice table th{
+  font-size: 11px;
+  padding: 15px 2%;
+  text-transform: uppercase;
+  font-weight: 400;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.tbprice table th img, .tbprice table td img{
+
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tbprice table td img{
+  margin-right:15px;
+}
+#add_prize img {
+  position: relative;
+  right: -6px;
+}
+
+.tbprice table td .button-small img {
+  margin-right:0px;
+}
+.tbprice table th span{
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  padding-right: 50px;
+}
+.tbprice table tr td:first-child, .tbprice table tr th:first-child{
+  width: 30%;
+}
+.tbbrakets .tbprice table tr td:first-child, .tbbrakets .tbprice table tr th:first-child{
+  width:65px;
+}
+.tbprice table tr td{
+  background: #0606063b;
+}
+.tbprice table tr td:first-child{
+  background: -webkit-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: -o-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: -moz-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+}
+.tbprice table td{
+  color: #f9f5e1;
+  padding: 15px 2%;
+  border-bottom: 1px #333335 solid;
+}
+.tbprice table td span{
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 1px;
+  color: #A2ADB8;
+
+}
+.tbprice table td.trcell span {
+  font-weight: 600;
+}
+.tbprice table td:first-child span {
+  font-size: 14px;
+}
+.tbprice table td #challenge_control div{
+  width:100%;
+  text-align:center;
+}
+.tbprice table td #challenge_control div.challenge_decline{
+  background: #8d0303;
+  border: 1px solid red;
+  box-shadow: none;
+  opacity:0.8;
+}
+.tbprice table td #challenge_control div.challenge_decline:hover{
+  opacity:1;
+}
+.tbprice table td.tfirstw span, .tbprice table td.tsecondw span, .tbprice table td.tthirdw span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height:24px;
+}
+.tbprice table td.tfirstw{
+  border-left: 2px #ffba00 solid;
+}
+.tbprice table td.tsecondw{
+  border-left: 2px #aeaeae solid;
+}
+.tbprice table td.tthirdw{
+  border-left: 2px #da773b solid;
+}
+
+.tbteams#buddypress .members-list li a{
+  color: #A2ADB8;
+}
+.tbteams#buddypress .members-list li a:hover{
+  color: #eee;
+}
+#remove_regulation{
+  background: grey;
+  box-shadow: none;
+  margin-left:5px;
+}
+.tbregulations.news_tabbed {
+  font-weight: 600;
+  line-height: 30px;
+}
+.tbregulations .tab-content ul{
+  margin-top:15px;
+  margin-bottom:30px;
+}
+.tbregulations .tab-content ul li{
+  margin: 7px 0px;
+}
+.tbregulations #regulations_tabs li .editable-container{
+  padding:10px 10px 0px 10px;
+}
+
+.tbregulations > ul.nav-tabs>li{
+  float: left;
+  width: 100%;
+  margin-bottom: 3px;
+  border-radius: 5px 0px 0px 5px;
+}
+.tbregulations > ul.nav-tabs li a{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 1px 3px #000;
+  padding: 20px 25px;
+  color: white !important;
+}
+.tbregulations > ul.nav-tabs>li:before{
+  border-radius: 4px 0px 0px 4px;
+}
+.tbregulations > ul.nav-tabs>li.active:before{
+  opacity:0;
+}
+.tbregulations .tab-content.wcontainer{
+  float:left;
+  width:75%;
+  padding: 30px;
+  background-color: #1f242c;
+  border: 1px solid #ffffff1c;
+}
+.tbregulations .tab-content.wcontainer h1, .tbregulations .tab-content.wcontainer h2, .tbregulations .tab-content.wcontainer h3,
+.tbregulations .tab-content.wcontainer h4, .tbregulations .tab-content.wcontainer h5, .tbregulations .tab-content.wcontainer h6{
+
+  color: #c7d5eb;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.tbregulations .tab-content.wcontainer *:last-child {
+  margin-bottom: 0px;
+}
+.tbregulations .regulations_wrapper{
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+span.u_kick {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  opacity:1;
+  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+}
+span.u_kick:hover{
+  opacity:0.5;
+}
+.kick_load{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-top: 12px;
+}
+.challenge_status{
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #333240;
+  border: 1px solid #000;
+}
+.tbbrakets{
+  min-height:120px;
+}
+.tbbrakets .tbbstagesw{
+  margin: 0 0 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  margin-bottom:-30px;
+  padding-left:1px;
+}
+.tbbrakets .tbbstagesw ul{
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -.31em;
+  word-spacing: -.43em;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tbbrakets .tbbstagesw .tbbstages ul:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  height: 3px;
+  background: #292929;
+  left: 0;
+  right: 0;
+}
+.tbbrakets .tbbstagesw ul li{
+
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 12px;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  text-align: left;
+  border-radius: 4px;
+  margin-right: 0.5%;
+  border-bottom: 1px solid black !important;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 19.5%;
+  flex: 0 0 19.5%;
+  margin-bottom: 0.5%;
+}
+.tbbrakets .tbbstagesw ul li:not(.ui-state-active) a {
+  background: #161920;
+}
+.tbbrakets .tbbstagesw .tbbgroups ul li{
+  width: auto;
+  min-width: 120px;
+}
+.tbbrakets .tbbstagesw ul li a{
+  padding: 0 10px 0 0;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  color: #c7d5eb;
+  height: 44px;
+  white-space: nowrap;
+  z-index:1;
+  text-align: center;
+  line-height: 40px;
+}
+.tbbrakets .tbbstagesw .tbbstages{
+  margin: 0 0 30px;
+}
+.tbbrakets .tbbstagesw .tbbgroups ul li a{
+  border-bottom: 3px solid rgba(0,0,0,0);
+  margin-right: 20px;
+  width: auto;
+  height: 30px;
+
+}
+.tbbrakets .tbbstagesw ul li a span{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight:700;
+  margin-top:12px;
+}
+.tbbrakets .tbbstagesw ul li.ui-state-active a, .tbbrakets .tbbstagesw ul li:hover a{
+  color: #fff;
+
+}
+
+.tbprice table.tbgroups tr td:first-child, .tbprice table.tbgroups tr th:first-child{
+  width: 69px;
+}
+
+table.tbgroups tr td, .tbroundt table tr td{
+  color: #999;
+}
+.tbgroups a, .tbroundt a{
+  font-size:14px;
+  color: #A2ADB8;
+}
+.tbgroups a:hover, .tbroundt a:hover{
+  color: #eee;
+}
+.tbroundt h3{
+  font-size: 14px;
+  padding: 15px;
+  margin: 40px 0px 0px 0px;
+  padding-left: 25px;
+}
+
+.tbroundt table{
+  width: 100%;
+  margin-top: 40px;
+}
+.tbroundt.ladder_matches table{
+  margin-top:0px;
+}
+.tbroundt table tr td{
+  width:auto;
+  padding: 15px 2%;
+  border-bottom: 1px #333335 solid;
+  background: #0606063b;
+  font-size: 13px;
+  color: #A2ADB8;
+  vertical-align: middle;
+}
+
+
+
+.tbroundt table tr th img{
+  position: relative;
+  top: 5px;
+}
+.tbroundt table tr th{
+  font-size: 11px;
+  padding: 15px 2%;
+  text-transform: uppercase;
+  font-weight: 400;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.tbroundt table tr th:first-child {
+  width: 50%;
+}
+.tbroundt table tr th:first-child, .tbroundt table tr td:first-child {
+  width: 20%;
+}
+.tbroundt table tr th:last-child, .tbroundt table tr td:last-child {
+  width: 20%;
+}
+.tbroundt table tr th:nth-child(3), .tbroundt table tr td:nth-child(3) {
+  width: 9%;
+  text-align: center;
+}
+.tbroundt table tr th:nth-child(2), .tbroundt table tr td:nth-child(2) {
+  width: 20%;
+  text-align: right;
+  border-left: 1px solid black !important;
+}
+.tbroundt table tr td.gscore{
+  width: 8%;
+}
+
+.tbroundt table tr td.gscore strong{
+  color: #A2ADB8;
+}
+
+.tbroundt table tr td.gscore a{
+  text-decoration: underline;
+}
+
+.header-background-image {
+  width:100%;
+  height: 100%;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  overflow:hidden;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+.tournament-finished {
+  text-align: center;
+  background: #bb1a1c;
+  padding: 5px 5px;
+  color: #ffffff;
+  font-size: 9px;
+  line-height: 10px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+.tournamentCarousel .tournament-finished{
+  margin-top: 0px;
+}
+.tournament_control_panel {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  z-index:100000;
+  text-align:center;
+  padding:15px;
+}
+.tournamentCarousel .nextmatch_wrap h4 {
+  margin-bottom: 20px;
+  padding: 0px;
+  border-left: 0px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.tournament_control_panel a{
+  margin-right: 5px;
+}
+
+#knockout_holder {
+  width:100%;
+  display: inline-block;
+  overflow:hidden;
+  margin-top:40px;
+  cursor: move;
+}
+
+#thebracket_third h5{
+  display:none;
+}
+#thebracket_third table{
+  position: absolute;
+  top: 4px;
+  width:100%;
+}
+#thebracket_third .g_game.g_winner {
+  margin-top: 16px !important;
+}
+.g_round_label.thirdp {
+  position: relative !important;
+  left: initial !important;
+}
+.g_gracket {
+  min-width:2100px !important;
+  display: flex;
+  padding: 55px 0px 5px;
+  line-height: 100%;
+  position: relative;
+  overflow: hidden;
+  touch-action:auto;
+}
+.g_round {
+  float: left;
+  margin-right: 52px;
+}
+.g_game {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.g_game small {
+  font-size: 100%;
+  float: right;
+}
+.g_gracket h3 {
+  margin: 0;
+  padding: 10px 12px 10px 15px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #fff;
+  text-transform: capitalize;
+  min-width: 150px;
+}
+.g_gracket h3 span.g_seed{
+  margin-right: 2px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+.g_team{
+  background:rgb(64, 64, 76);
+  margin-bottom: 2px;
+}
+.g_team:last-child {
+  background: -webkit-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: -o-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: -moz-linear-gradient(to right, rgb(27, 27, 33) 0%,rgb(33, 33, 41) 100%);
+  background: linear-gradient(to right, rgb(40, 40, 50) 0%,rgb(40, 40, 50) 100%);
+}
+
+.g_round:last-child {
+  margin-right: 20px;
+}
+
+.g_winner .g_team {
+  background: none;
+}
+.g_current {
+  cursor: pointer;
+  color:white;
+}
+.g_round_label {
+  top: -5px;
+  font-weight: normal;
+  color: #CCC;
+  text-align:	center;
+  font-size: 13px;
+  min-width: 200px;
+  text-align: left;
+  padding-left:17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+/*! X-editable - v1.5.1
+* In-place editing with Twitter Bootstrap, jQuery UI or pure jQuery
+* http://github.com/vitalets/x-editable
+* Copyright (c) 2013 Vitaliy Potapov; Licensed MIT */
+
+#tournament-start .editableform .control-group .editable-buttons{
+  top:5px;
+}
+.bootstrap-wysihtml5-insert-link-modal .modal-dialog{
+  background: #333240;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.bootstrap-wysihtml5-insert-link-modal .modal-header{
+  padding: 0px;
+  margin:-1px;
+}
+.bootstrap-wysihtml5-insert-link-modal .modal-body input{
+  display: inline-block;
+  border-collapse: separate;
+  border: 1px solid rgba(0, 0, 0, 0.901961);
+  clear: none;
+  float: none;
+  margin: 0px 0px 10px;
+  outline: rgb(204, 204, 204) none 0px;
+  outline-offset: 0px;
+  padding: 10px 15px;
+  position: static;
+  vertical-align: baseline;
+  text-align: start;
+  box-sizing: border-box;
+  box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px 0px, rgba(0, 0, 0, 0.6) 0px 1px 2px 0px inset;
+  border-radius: 3px;
+  width:100%;
+  background-color: rgb(38, 38, 47);
+}
+.bootstrap-wysihtml5-insert-link-modal .modal-footer{
+  border-top: 1px solid black;
+}
+.editableform {
+  margin-bottom: 0; /* overwrites bootstrap margin */
+}
+
+.editableform .control-group {
+  margin-bottom: 0; /* overwrites bootstrap margin */
+  white-space: nowrap; /* prevent wrapping buttons on new line */
+  line-height: 20px; /* overwriting bootstrap line-height. See #133 */
+}
+
+/*
+  BS3 width:1005 for inputs breaks editable form in popup
+  See: https://github.com/vitalets/x-editable/issues/393
+*/
+.editableform .form-control {
+  width: auto;
+  height: auto;
+  font-weight: 500;
+  font-size: 12px;
+  padding:10px 15px;
+}
+
+.editable-buttons {
+  display: block;
+  vertical-align: top;
+  margin-left: 0;
+  margin-bottom: 10px;
+  zoom: 1;
+  top: 0px;
+  position: relative;
+  z-index: 1;
+  padding-left: 5px;
+}
+.editable-buttons button {
+  line-height: normal;
+}
+.tbparticipants .editable-buttons {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.editable-buttons button{
+  padding: 5px 13px !important;
+  margin: 0px;
+  top: 0px;
+}
+.editable-buttons.editable-buttons-bottom, .tbregulations .tab-content .editable-buttons{
+  display: block;
+  margin-top: 7px;
+  margin-left: 0;
+}
+
+.editable-input {
+  vertical-align: top;
+  display: inline-block; /* should be inline to take effect of parent's white-space: nowrap */
+  width: auto; /* bootstrap-responsive has width: 100% that breakes layout */
+  white-space: normal; /* reset white-space decalred in parent*/
+  /* display-inline emulation for IE7*/
+  zoom: 1;
+}
+
+.editable-input input{
+  height: auto;
+}
+.thdtext .editable-input, .editableform .form-control{
+  width:100%;
+}
+.editable-buttons .editable-cancel {
+  margin-left: 7px;
+}
+
+.editable-input .combodate select{
+  background-color: #282833;
+  border: 1px solid black;
+  margin: 5px 5px 10px 5px;
+  line-height: 14px;
+}
+
+
+
+/*for jquery-ui buttons need set height to look more pretty*/
+.editable-buttons button.ui-button-icon-only {
+  height: 24px;
+  width: 30px;
+}
+
+.editableform-loading {
+  height: 25px;
+  width: auto;
+  min-width: 25px;
+}
+
+.editable-inline .editableform-loading {
+  background-position: left 5px;
+}
+
+.editable-error-block {
+  max-width: 300px;
+  margin: 5px 0 0 0;
+  width: auto;
+  white-space: normal;
+}
+
+/*add padding for jquery ui*/
+.editable-error-block.ui-state-error {
+  padding: 3px;
+}
+
+.editable-error {
+  color: red;
+}
+
+/* ---- For specific types ---- */
+
+.editableform .editable-date {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/* move datepicker icon to center of add-on button. See https://github.com/vitalets/x-editable/issues/183 */
+.editable-inline .add-on .icon-th {
+  margin-top: 3px;
+  margin-left: 1px;
+}
+
+
+/* checklist vertical alignment */
+.editable-checklist label input[type="checkbox"],
+.editable-checklist label span {
+  vertical-align: middle;
+  margin: 0;
+}
+
+.editable-checklist label {
+  white-space: nowrap;
+}
+
+/* set exact width of textarea to fit buttons toolbar */
+.editable-wysihtml5 {
+  width: 566px;
+  height: 250px;
+}
+
+/* clear button shown as link in date inputs */
+.editable-clear {
+  clear: both;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* IOS-style clear button for text inputs */
+.editable-clear-x {
+  display: block;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  opacity: 0.6;
+  z-index: 100;
+
+  top: 37%;
+  right: 6px;
+  margin-top: -6px;
+
+}
+
+.editable-clear-x:hover {
+  opacity: 1;
+}
+
+.editable-pre-wrapped {
+  white-space: pre-wrap;
+}
+.editable-container.editable-popup {
+  max-width: none !important; /* without this rule poshytip/tooltip does not stretch */
+}
+
+.editable-container.popover {
+  width: auto; /* without this rule popover does not stretch */
+}
+
+.editable-container.editable-inline {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  /* inline-block emulation for IE7*/
+  zoom: 1;
+}
+
+.editable-container.ui-widget {
+  font-size: inherit;  /* jqueryui widget font 1.1em too big, overwrite it */
+  z-index: 9990; /* should be less than select2 dropdown z-index to close dropdown first when click */
+}
+.editable-click,
+a.editable-click,
+a.editable-click:hover {
+  text-decoration: none;
+  border-bottom: dashed 1px #0088cc;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+}
+a.editable-click:hover, .editable-click:hover{
+  color:#999 !important;
+}
+.editable-click.editable-disabled,
+a.editable-click.editable-disabled,
+a.editable-click.editable-disabled:hover {
+  color: #585858;
+  cursor: default;
+  border-bottom: none;
+}
+
+.editable-click .fa-cog{
+  font-size: 18px;
+  /* margin-top: -2px; */
+  top: -2px;
+  position: relative;
+  margin-left: 6px;
+}
+.editable-empty, .editable-empty:hover, .editable-empty:focus{
+  font-style: italic;
+  color: #DD1144;
+  /* border-bottom: none; */
+  text-decoration: none;
+}
+
+.editable-unsaved {
+  font-weight: bold;
+}
+
+.editable-unsaved:after {
+  /*    content: '*'*/
+}
+
+.editable-bg-transition {
+  -webkit-transition: background-color 1400ms ease-out;
+  -moz-transition: background-color 1400ms ease-out;
+  -o-transition: background-color 1400ms ease-out;
+  -ms-transition: background-color 1400ms ease-out;
+  transition: background-color 1400ms ease-out;
+}
+
+.t_edit_wrapper .thdescriptionleft h1 a, .t_edit_wrapper .thinfoleft h2 a, .t_edit_wrapper .thinforight ul li a,
+.t_edit_wrapper .tbinfo ul li a{
+  font-size: 16px !important;
+
+}
+/*see https://github.com/vitalets/x-editable/issues/139 */
+.form-horizontal .editable
+{
+  padding-top: 5px;
+  display:inline-block;
+}
+
+body #TeamChooserModalFooter .modal-content{
+  padding:0px;
+}
+#TeamChooserModalFooter .members-list{
+  padding:0px;
+  margin:0px;
+}
+#TeamChooserModalFooter .members-list li{
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+  padding: 5px;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  margin: 0px;
+  float: none !important;
+  border: 1px solid black;
+  background-size: cover !important;
+  background-position: center !important;
+  cursor:pointer;
+}
+#TeamChooserModalFooter .members-list li:last-child {
+  display: none;
+}
+#TeamChooserModalFooter .close {
+  position: absolute;
+}
+#TeamChooserModalFooter .members-list li:hover{
+  -o-box-filter: brightness(120%);
+  -moz-box-filter: brightness(120%);
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+#TeamChooserModalFooter .members-list li:first-child {
+  border-top: 1px solid black !important;
+}
+#TeamChooserModalFooter .members-list li .item-title{
+  position: absolute;
+  top: 29px;
+  height: auto;
+  width: auto;
+  left: 144px;
+  z-index: 1;
+}
+#TeamChooserModalFooter .members-list li .item-avatar{
+  float:left;
+  z-index: 2;
+  position: relative;
+}
+#TeamChooserModalFooter .members-list li .item-title a{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 22px;
+}
+#TeamChooserModalFooter .members-list li .item-title .item-meta{
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: none;
+  opacity: 0.8;
+}
+
+#TeamChooserModalFooter .members-list li img{
+  width: 140px;
+  border: 1px solid #000;
+  background: #11161f;
+  z-index: 99999;
+  padding: 11px 10px 10px;
+}
+#TeamChooserModalFooter .members-list li .item-title {
+  background: #0e171aeb;
+  border: 1px solid #000;
+
+  font-size: 22px;
+  position: relative !important;
+  top: 25px !important;
+  left: 0px !important;
+  padding: 15px 20px;
+  font-weight: 900;
+  color: #eee;
+  text-transform: uppercase;
+  z-index: 9999;
+}
+#TeamChooserModalFooter .members-list li .team-list-wrapper {
+  background: transparent;
+}
+#TeamChooserModalFooter .members-list li:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #00000036;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* BR tournament */
+
+.ttbr .tbroundt table tr a{
+  word-break: break-all;
+}
+.ttbr .tbroundt table tr a.br-modal{
+  color:white;
+  font-size: 13px;
+}
+
+.ttbr .tbroundt table tr th img {
+  top: 0px;
+}
+.ttbr .tbroundt table.admin-review tr th:nth-child(3), .ttbr .tbroundt table.admin-review tr td:nth-child(3) {
+  width: 35%;
+  text-align: left;
+}
+.ttbr .tbroundt table.admin-review tr th:nth-child(2), .ttbr .tbroundt table.admin-review tr td:nth-child(2) {
+  width: 13%;
+}
+.ttbr .tbroundt table.admin-review tr th:last-child, .ttbr .tbroundt table.admin-review tr td:last-child {
+  width: 245px;
+}
+
+.ttbr .tbroundt table tr th:nth-child(2), .ttbr .tbroundt table tr td:nth-child(2){
+  width: 80%;
+}
+.ttbr .tbroundt table tr th:nth-child(3), .ttbr .tbroundt table tr td:nth-child(3) {
+  width: 29%;
+}
+.standings-table td, .standings-table th {
+  flex-grow: 5;
+}
+.standings-table td:last-child, .standings-table td:first-child, .standings-table th:last-child, .standings-table th:first-child {
+  flex-grow: 1;
+}
+.standings-table tr {
+  display: flex;
+  width: 100%;
+}
+tr.ui-sortable-handle {
+  cursor: move;
+}
+.edit-score {
+  cursor: text;
+}
+.edit-score:hover {
+  background: #0000006e;
+}
+.edit-score input {
+  max-width: 30%;
+  display: inline-block;
+}
+#stop_game{
+  margin-top:10px;
+}

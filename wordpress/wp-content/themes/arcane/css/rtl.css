@@ -1,0 +1,290 @@
+body{
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	right: 17%;
+}
+.next_slide_text, .widget .teamwar-list .scores, .widget .teamwar-list .upcoming {
+	left:0px;
+	right: initial !important;
+}
+.blog-rating .overall-score .rating {
+  text-align: left !important;
+}
+.widget-title i {
+  margin-left: 3px !important;
+}
+div.rating:after {
+	left: 0 !important;
+    text-align: left !important;
+}
+.heart-love-count .fa {
+  margin-left: 5px !important;
+}
+.match-wrap, .widget .teamwar-list .date, #buddypress ul.item-list li img.avatar, #buddypress .members-list li div.item-title, .tbbrakets .tbbstagesw ul li, .tbinfo ul li, .tbinfo ul li h3, .tbinfo ul li span, .tbmapsi li, #buddypress .members-list li, #buddypress div.pagination .pag-count, #buddypress div.item-list-tabs ul li, #buddypress #members-directory-form div.dir-search {
+	float: right!important;
+}
+.dropdown:hover .dropdown-menu li>a, .tbprice table th, .tbprice table tr td, .tbroundt table tr th:first-child, .tbroundt table tr td:first-child {
+	text-align: right!important;
+}
+.tlistinfo {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.tlistjoin {
+	left: 20px;
+	right: auto;
+}
+#buddypress .members-list li div.item-title {
+	padding-right: 10px;
+	padding-left: 0;
+}
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a {
+	background-color: transparent;
+}
+.widget.teamwarlist-page .teamwar-list .date,  #buddypress #search-members-form #members_search_submit {
+	margin-right: 10px;
+	margin-left: 0;
+}
+#buddypress .comment-reply-link, #buddypress .generic-button a, #buddypress .standard-form button, #buddypress a.button, #buddypress input[type=button], #buddypress input[type=reset], #buddypress input[type=submit], #buddypress ul.button-nav li a, a.bp-title-button {
+	color: #fff!important;
+	border: none!important;
+}
+.thdescriptionleft img {
+	float: right;
+	margin-left: 25px;
+	margin-right: 0;
+}
+.thinforight ul li img, .thprice img {
+	right: 0;
+	left: initial;
+}
+.thinforight ul li {
+	padding: 0 30px 0 5px;
+}
+.tbroundt table tr th:nth-child(2), .tbroundt table tr td:nth-child(2) {
+	border-right: 1px solid black !important;
+	border-left:none!important;
+}
+.tbinfo ul li {
+	border-right: 2px solid;
+	border-left: none;
+}
+body .team-page .team-nav, .bbp-user-page #buddypress>#item-nav, .team-page .team-nav, .bp-user #buddypress #item-nav {
+	top: -55px;
+}
+#buddypress ul.item-list {
+	border-top: none;
+}
+.carousel_rating {
+	right: 0!important;
+}
+body.page .blog-twrapper .carousel_rating {
+	right: 50%!important;
+}
+body.home-page .carousel_rating, body.page .carousel_rating {
+	right: 11px!important;
+}
+ #buddypress .dir-search input[type=text] {
+ 	border: 1px solid rgba(0, 0, 0, .9);
+    background: #26262f;
+ }
+ #buddypress div.pagination .pag-count {
+ 	margin-right: 0;
+ 	margin-left: 10px;
+ }
+.owl-carousel * {
+    direction: ltr !important;
+}
+.owl-carousel .car_title{
+	direction: rtl !important;
+}
+.owl-item:hover .car_title a, .car_title  .car_inner_title{
+	text-align:right;
+}
+ .car_title {
+ 	right: 0;
+ 	left: initial;
+ }
+ .ubermenu-sub-indicators .ubermenu-has-submenu-drop>.ubermenu-target:after {
+ 	left: 10px;
+ 	right: auto!important;
+ }
+.ubermenu .ubermenu-grid-row .ubermenu-target, .ubermenu .ubermenu-submenu-grid .ubermenu-target {
+	padding-right: 25px!important;
+}
+.newsbv .newsb-thumbnail {
+	margin-right: 0;
+}
+html body .tournaments_block .tournaments-list li:nth-child(2n) {
+    margin-right: .5%;
+}
+html body .tournaments_block .tournaments-list li {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 49.75%;
+}
+/* RTL  Menu go right*/
+.block_tabs ul.nav-tabs{
+	padding:0;
+}
+.block_tabs .nav-tabs>li, body .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab{
+	float:right;
+}
+/* Trophey icon move */
+.thdescriptionleft .jtournamentb i{
+	position:relative;
+	left:5px;
+}
+/* Matches on left side */
+.match-page .mmaps ul li strong{
+	float:right;
+	min-width:80px;
+}
+/* Playing Frontend */
+.widget .teamwar-list .playing{
+	right:auto;
+	left:0;
+}
+/* Breaking News Fix */
+#sform input{
+text-indent:10px;
+}
+.after-nav .container:before{
+	left: initial !important;
+	right:-300%;
+}
+body .ticker-title{
+	left: initial;
+    right: 0px;
+}
+body ul.newsticker li{
+	direction: rtl;
+}
+body .search-top {
+    position: absolute;
+    right: initial;
+    left: 0;
+ }
+ .tickercontainer{
+ 	    direction: ltr;
+ }
+/*
+.ticker-title{
+	left:auto;
+	right:0px;
+}
+.search-top{
+	left:0;
+	right:auto;
+}*/
+/*.ticker-title:before{
+	left:-25px;
+	right:auto;
+    border-right: 0px solid transparent;
+    border-left: 25px solid transparent;
+}*/
+.overlay.vc_video-bg-container{
+	max-width:100%;
+	width:100%;
+	right:0;
+	left:auto;
+	margin:0 auto;
+}
+/* year - Admin change line RTL solution*/
+.post-pinfo a:nth-child(1){
+	display:inline-block;
+	width:100%
+}
+.post-review .score{
+	float:left;
+}
+.r-35:after{
+    margin-left: -9px;
+}
+/* User Profile Icon Adventure */
+body .post-meta img{
+	float:left;
+}
+.newsbv-item .post-meta a{
+	float:right;
+	padding:0 4px;
+}
+.post-meta a:nth-child(2){
+  float:left!important;
+}
+.post-meta{
+	display:inline-block;
+}
+/* Members same margins*/
+#buddypress .members-list li{
+	margin:5px 5px 2px 1px!important;
+}
+/* Profile d ropdown RTL Width change by me */
+.user-wrap .logged-info, .user-wrap a, .user-wrap img{
+	float:none;
+}
+/* Navigation Panel Shop  and Stars*/
+.woocommerce nav.woocommerce-pagination ul li{
+	border-left:0px;
+}
+.woocommerce .star-rating span:before, .woocommerce .star-rating:before{
+	left:auto!important;
+	right:6px!important;
+}
+body.woocommerce span.onsale {
+    right: initial;
+    left: 50%;
+}
+body .woocommerce-error .button, body .woocommerce-info .button, body .woocommerce-message .button{
+	right:initial !important;
+	left:5px !important;
+}
+/* Main dropdown profile rtl */
+.user-wrap .dropdown li a{
+	direction:ltr;
+	text-align:right;
+}
+/* Members dropdown image and text */
+.widget.buddypress .vcard div.item-meta{
+	margin-right:0px;
+}
+.members-list .item-avatar {
+    float: right;
+    margin: 0px 10px;
+}
+
+/* Team wars */
+.footer_widget .teamwar-list .playing, .footer_widget .teamwar-list .scores, .footer_widget .teamwar-list .upcoming, .widget .teamwar-list .playing, .widget .teamwar-list .scores, .widget .teamwar-list .upcoming{
+	right:initial !important;
+	left: 10px;
+}
+/* Tournaments */
+body .thinforight ul li img, body .thprice img{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+body .thinforight ul li{
+	padding: 0 30px 0 5px;
+}
+body .thdescriptionleft img {
+    margin-left: 25px;
+    float: right;
+}
+.tlistjoin, .tlistpremium {
+    right: initial !important;
+    left: 30px;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper{
+	    -webkit-transition: none !important;
+    transition: none !important;
+}
+.woocommerce div.product div.images.woocommerce-product-gallery{
+	    direction: ltr !important;
+} 
+#knockout_holder{
+	    direction: ltr;
+}

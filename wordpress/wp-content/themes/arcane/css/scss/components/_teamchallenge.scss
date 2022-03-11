@@ -1,0 +1,104 @@
+.page-template-tmp-team-challenge .title_wrapper{
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.page-template-tmp-team-challenge .title_wrapper .col-12 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.page-template-tmp-team-challenge .title_wrapper .col-12:before {
+  display: none;
+}
+.tournament-creation-wrap.col-9 h3 span{
+  color: white;
+}
+.challenge-form .tc-forms {
+  opacity: 1;
+  overflow: visible;
+  max-height: none;
+}
+.tchall-date{
+  display: flex;
+  line-height: 42px;
+}
+.tchall-date * {
+  margin: 0px 8px !important;
+  align-items: center;
+}
+.tchall-date input:last-child {
+  margin-right: 0px !important;
+}
+.tchall-date select {
+  margin-left: 0px !important;
+}
+.match-results .map, #mapsite .map {
+  background: #ffffff05;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  padding: 27px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position:relative;
+}
+.modal-content #mapsite .map:last-child {
+  margin-bottom: 15px;
+}
+input.small-text.roundval[readonly] {
+  cursor: not-allowed;
+}
+.match-results .leftcol, #mapsite .leftcol {
+  width: 35%;
+}
+.match-results .round, #mapsite .round {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.match-results .round input[type=text], #mapsite .round input[type=text]{
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 0px;
+}
+.modal-body .map .team1_title, .modal-body .map .team2_title{
+  width: 48%;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.match-results .leftcol img, #mapsite .leftcol img {
+  width: 100%;
+}
+.match-results .rightcol, #mapsite .rightcol  {
+  width: 65%;
+  padding-left: 20px;
+}
+.match-results .leftcol select, #mapsite .leftcol select {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.match-results .map .remove-matchmap:hover, #mapsite .map .remove-matchmap:hover {
+  opacity: 1;
+}
+.match-results .map .remove-matchmap, #mapsite .map .remove-matchmap {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  padding: 5px 10px;
+  color: white;
+  opacity: 0.5;
+}
+.match-results .team_titles span, #mapsite .team_titles span {
+  width: 48%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+.match-results .team_titles, #mapsite .team_titles {
+  display: flex;
+}

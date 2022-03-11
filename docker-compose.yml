@@ -1,31 +1,48 @@
-version: "3.9"
-
+version: '3'
 services:
-  nginx:
-     image: nginx:stable-alpine
-     ports:
-       - "80:80"
-     volumes:
-        - ./wpdev-env.com/nginx/default.conf
-        - ./wordpress:/var/www/html:delegated # Helps speed up response time on MacOS files systems
-
   mysql:
-      image: mysql:latest
-      environment:
-        MYSQL_DATABASE: ##
-        MYSQL_USER: ##
-        MYSQL_PASSWORD: ##
-        MYSQL_ROOT_PASSWORD: ##
-    
-  php: 
-    image: php:8.1.0alpha3-fpm-alpine
+    image: mariadb
     volumes:
-      - ./wordpress:/var/www/html:delegated
-
-  wordpress:
-    image: wordpress:latest
-    volumes:
-        - ./wordpress:/var/www/html:delegated
-    ports:
-        - "8000:80"
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root@123
+      MYSQL_DATABASE: wpdb
+      MYSQL_USER: wpdb-user
+      MYSQL_PASSWORD: wpdb@123
     restart: always
+  wordpress:
+    image: wordpress:php7.3-fpm-alpine
+    volumes:
+      - ./wordpress:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root@123
+      WORDPRESS_DB_NAME: wpdb
+      WORDPRESS_DB_USER: wpdb-user
+      WORDPRESS_DB_PASSWORD: wpdb@123
+      WORDPRESS_TABLE_PREFIX: wp_
+    links:
+      - mysql
+    restart: always
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./wordpress:/var/www/html
+    ports:
+      - 8080:80
+    links:
+      - wordpress
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.0.1
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: root@123
+    ports:
+      - "5000:80"
