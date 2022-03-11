@@ -12,10 +12,10 @@ services:
   mysql:
       image: mysql:latest
       environment:
-        MYSQL_DATABASE: wp
-        MYSQL_USER: wp
-        MYSQL_PASSWORD: wpsecret
-        MYSQL_ROOT_PASSWORD: wpsecret
+        MYSQL_DATABASE: ##
+        MYSQL_USER: ##
+        MYSQL_PASSWORD: ##
+        MYSQL_ROOT_PASSWORD: ##
     
   php: 
     image: php:8.1.0alpha3-fpm-alpine
