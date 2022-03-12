@@ -1,13 +1,23 @@
 .redux-templates-button-display-dependencies {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  margin: 10px; }
-  .redux-templates-button-display-dependencies span svg {
-    margin-right: 5px; }
-  .redux-templates-button-display-dependencies span svg * {
-    fill: #f7f7f7;
-    box-shadow: 0 1px 0 #ccc; }
-  .redux-templates-button-display-dependencies span.missing-dependency svg * {
-    fill: #f5a623; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
 
+.redux-templates-button-display-dependencies span svg {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.redux-templates-button-display-dependencies span svg * {
+  fill: #f7f7f7;
+}
+
+.redux-templates-button-display-dependencies span.missing-dependency svg * {
+  fill: rgba(247, 247, 247, 0.5);
+}
 /*# sourceMappingURL=style.css.map */

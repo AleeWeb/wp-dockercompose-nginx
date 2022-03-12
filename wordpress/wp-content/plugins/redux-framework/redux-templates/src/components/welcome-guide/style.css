@@ -1,0 +1,44 @@
+.redux-edit-post-welcome-guide {
+  width: 412px;
+}
+
+.redux-edit-post-welcome-guide__image {
+  background: #00a0d2;
+  width: 412px;
+  border-bottom: 1px solid #ddd;
+}
+
+.redux-edit-post-welcome-guide__image__prm-r {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .redux-edit-post-welcome-guide__image__prm-r {
+    display: block;
+  }
+  .redux-edit-post-welcome-guide__image__prm-np {
+    display: none;
+  }
+}
+
+.redux-edit-post-welcome-guide__heading {
+  font-family: "Noto Serif", serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 16px 0;
+  padding: 0 32px;
+}
+
+.redux-edit-post-welcome-guide__text {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 0 24px 0;
+  padding: 0 32px;
+  font-weight: normal;
+}
+
+.redux-edit-post-welcome-guide__inserter-icon {
+  margin: 0 4px;
+  vertical-align: text-top;
+}
+/*# sourceMappingURL=style.css.map */

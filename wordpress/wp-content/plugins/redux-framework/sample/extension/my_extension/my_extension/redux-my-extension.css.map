@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;GAMG",
+    "sources": [
+        "redux-my-extension.scss"
+    ],
+    "names": [],
+    "file": "redux-my-extension.css"
+}

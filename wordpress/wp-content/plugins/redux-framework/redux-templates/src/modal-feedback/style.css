@@ -1,63 +1,338 @@
+.feedback-wrapper {
+  position: relative;
+}
+
 .redux-templates-feedback {
   padding: 20px;
-  width: 600px; }
-  .redux-templates-feedback .panel {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
-    max-height: 300px;
-    opacity: 1; }
-    .redux-templates-feedback .panel.fade {
-      max-height: 0;
-      opacity: 0; }
-    .redux-templates-feedback .panel .field {
-      display: flex;
-      margin-bottom: 15px;
-      align-items: center; }
-      .redux-templates-feedback .panel .field.top {
-        align-items: top; }
-      .redux-templates-feedback .panel .field label {
-        margin-right: 15px; }
-      .redux-templates-feedback .panel .field label + input,
-      .redux-templates-feedback .panel .field textarea {
-        padding: 5px 10px;
-        width: 375px; }
-      .redux-templates-feedback .panel .field input[type="checkbox"],
-      .redux-templates-feedback .panel .field input[type="radio"] {
-        margin-top: 0;
-        margin-right: 0.5rem; }
-    .redux-templates-feedback .panel button {
+  width: 600px;
+}
+
+.redux-templates-feedback .panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  max-height: 300px;
+  opacity: 1;
+}
+
+.redux-templates-feedback .panel.fade {
+  max-height: 0;
+  opacity: 0;
+}
+
+.redux-templates-feedback .panel .field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redux-templates-feedback .panel .field.top {
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+}
+
+.redux-templates-feedback .panel .field label {
+  margin-right: 15px;
+}
+
+.redux-templates-feedback .panel .field label + input,
+.redux-templates-feedback .panel .field textarea {
+  padding: 5px 10px;
+  width: 375px;
+}
+
+.redux-templates-feedback .panel .field input[type="checkbox"],
+.redux-templates-feedback .panel .field input[type="radio"] {
+  margin-top: 0;
+  margin-right: 0.5rem;
+}
+
+.redux-templates-feedback .panel button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
-      margin-top: 1rem; }
-  .redux-templates-feedback h4 {
-    margin: 0.5rem 0; }
-  .redux-templates-feedback .error-panel {
-    color: #f00;
-    margin-bottom: 10px; }
+  margin-top: 1rem;
+}
+
+.redux-templates-feedback h4 {
+  margin: 0.5rem 0;
+}
+
+.redux-templates-feedback .error-panel {
+  color: #f00;
+  margin-bottom: 10px;
+}
 
 .redux-templates-feedback-modal-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  background: #fff; }
-  .redux-templates-feedback-modal-wrapper .redux-templates-modal-header {
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    flex: 0 0 60px;
-    padding: 10px 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box; }
-    .redux-templates-feedback-modal-wrapper .redux-templates-modal-header h3 {
-      margin: 0;
-      font-size: 1.2rem; }
-    .redux-templates-feedback-modal-wrapper .redux-templates-modal-header button {
-      border: none;
-      cursor: pointer; }
-    .redux-templates-feedback-modal-wrapper .redux-templates-modal-header .redux-templates-modal-close {
-      font-size: 20px;
-      background: transparent;
-      color: #9b9b9b; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+}
 
+.redux-templates-feedback-modal-wrapper .redux-templates-modal-header {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.redux-templates-feedback-modal-wrapper .redux-templates-modal-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.redux-templates-feedback-modal-wrapper .redux-templates-modal-header button {
+  border: none;
+  cursor: pointer;
+}
+
+.redux-templates-feedback-modal-wrapper .redux-templates-modal-header .redux-templates-modal-close {
+  font-size: 20px;
+  background: transparent;
+  color: #9b9b9b;
+}
+
+.feedback-popup-wrapper {
+  border-radius: 4px;
+}
+
+.less-margin .feedback-popup-content {
+  padding: 20px 25px;
+}
+
+.feedback-popup-content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.feedback-popup-content h3 {
+  color: #24b0a6;
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+}
+
+.feedback-popup-content p {
+  font-size: 16px;
+  margin: 0 0 22px;
+}
+
+.feedback-popup-content b {
+  font-weight: 500;
+}
+
+.feedback-popup-content textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  resize: none;
+  margin-bottom: 21px;
+  width: 100%;
+  min-height: 100px;
+}
+
+.feedback-popup-content label {
+  font-size: 13.8px;
+  display: block;
+  margin-bottom: 23px;
+}
+
+.feedback-popup-content input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.feedback-popup-content .rating-stars {
+  color: #fdb72c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feedback-popup-close .fa-times {
+  font-size: 20px;
+  color: #777;
+  float: right;
+  margin: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.feedback-popup-btn {
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 14px 25px;
+  border: 1px solid #00a7e5;
+  background-color: #24b0a6;
+  color: #fff;
+}
+
+.feedback-popup-btn:hover {
+  border: 1px solid #19837c;
+  background-color: #19837c;
+  color: #fff;
+}
+
+.feedback-popup-btn .dashicons-external {
+  margin-left: 6px;
+}
+
+.feedback-popup-content p {
+  font-size: 14px;
+}
+
+.feedback-popup-content textarea {
+  margin-bottom: 10px;
+}
+
+.feedback-popup-content label {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.feedback-popup-content .components-base-control .components-base-control__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedback-popup-content .error-message {
+  color: #f00;
+}
+
+.redux-templates-modal-wrapper.feedback-popup-wrapper {
+  height: auto;
+}
+
+.feedback-popup-content label.control-label {
+  margin-bottom: 5px;
+}
+
+.feedback-popup-content .form-group.field {
+  margin-bottom: 10px;
+}
+
+.feedback-popup-content .fixed-control input,
+.feedback-popup-content .fixed-control select {
+  width: 100%;
+}
+
+.feedback-popup-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 130px;
+  width: 100%;
+  background-color: #eee;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.feedback-popup-header .header-background {
+  width: 75px;
+  height: 75px;
+}
+
+.feedback-popup-header i.header-icon {
+  font-size: 50px;
+}
+
+.feedback-popup-header .feedback-popup-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.feedback-popup-content .col-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feedback-popup-content .col-wrapper form {
+  width: 100%;
+}
+
+.feedback-popup-content .redux-templates-block-preview-hover {
+  position: absolute;
+  z-index: 9;
+  cursor: default;
+  height: 100%;
+  background: transparent;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.feedback-popup-content .preview-panel {
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  cursor: default;
+  background: #fff;
+  position: relative;
+  margin: 0 0 0 20px;
+  outline: 3px solid transparent;
+  -webkit-transition: outline 0.3s ease-in-out;
+  transition: outline 0.3s ease-in-out;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,KAAK,CAAC;EACJ,6CAA6C;EAC7C,aAAa,CAAC,aAAC;EACf,cAAc,CAAA,YAAC;EACf,cAAc,CAAA,YAAC;CAChB",
+    "sources": [
+        "theme-color1.scss",
+        "function/_function.scss"
+    ],
+    "names": [],
+    "file": "theme-color1.css"
+}
