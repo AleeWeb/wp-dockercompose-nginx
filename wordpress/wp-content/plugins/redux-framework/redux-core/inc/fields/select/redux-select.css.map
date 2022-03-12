@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,uBADmB,CACnB,EAAE,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,GAAG;EACf,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,CAAC;CACnB;;AAGL,AAAA,sBAAsB,CAAC;EACnB,KAAK,EAAE,eAAe;CACzB;;AAED,AACI,2BADuB,CACvB,4BAA4B,CAAC,kCAAkC;AADnE,2BAA2B,CAEvB,0BAA0B,CAAC,yBAAyB,CAAC;EACjD,SAAS,EAAE,KAAK;CACnB",
-    "sources": [
-        "redux-select.scss"
-    ],
-    "names": [],
-    "file": "redux-select.css"
-}

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,2BADuB,CACvB,UAAU,CAAC;EACP,OAAO,EAAE,YAAY;EACrB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,GAAG;CAUtB;;AAdL,AAMQ,2BANmB,CACvB,UAAU,CAKN,MAAM,CAAC;EACH,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,GAAG;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;CACd",
-    "sources": [
-        "redux-link-color.scss"
-    ],
-    "names": [],
-    "file": "redux-link-color.css"
-}

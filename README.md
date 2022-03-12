@@ -1,2 +1,2 @@
 # wpdev-docker-nginx
-A working Docker Compose and Nginx WordPress dev environment setup
+WordPress dev environment setup that runs on Nginx with Docker Compose.

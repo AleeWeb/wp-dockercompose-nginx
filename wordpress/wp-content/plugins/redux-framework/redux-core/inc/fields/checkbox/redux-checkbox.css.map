@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,yBADqB,CACrB,KAAK,CAAC;EACF,cAAc,EAAE,GAAG;EACnB,KAAK,EAAE,IAAI;CAQd;;AAXL,AAKQ,yBALiB,CACrB,KAAK,CAID,WAAW,CAAC;EACR,UAAU,EAAE,CAAC;EACb,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;CACd",
-    "sources": [
-        "redux-checkbox.scss"
-    ],
-    "names": [],
-    "file": "redux-checkbox.css"
-}

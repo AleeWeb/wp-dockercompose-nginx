@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "CACA,AAAA,AAGC,SAHA,CAAU,mBAAmB,AAA7B,EAGA,aAAa;CAFd,AAAA,SAAC,CAAU,mBAAmB,AAA7B,EAEA,aAAa,CAAC;EACb,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,QAAQ;CAKnB;;CAVF,AAAA,AAOE,SAPD,CAAU,mBAAmB,AAA7B,EAGA,aAAa,CAIZ,GAAG;CANL,AAAA,SAAC,CAAU,mBAAmB,AAA7B,EAEA,aAAa,CAIZ,GAAG,CAAC;EACH,MAAM,EAAE,KAAK;CACb",
-    "sources": [
-        "member-avatar-blocks.scss"
-    ],
-    "names": [],
-    "file": "member-avatar-blocks.css"
-}

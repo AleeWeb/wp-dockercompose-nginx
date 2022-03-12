@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EAClB,QAAQ,EAAE,IAAI;EACd,SAAS,EAAE,UAAU;EACrB,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "redux-options-object.scss"
-    ],
-    "names": [],
-    "file": "redux-options-object.css"
-}

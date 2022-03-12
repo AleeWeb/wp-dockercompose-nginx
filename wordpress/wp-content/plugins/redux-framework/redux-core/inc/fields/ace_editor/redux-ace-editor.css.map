@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACI,2BADuB,CACvB,YAAY,CAAC;EACT,QAAQ,EAAE,MAAM;CACnB;;AAHL,AAKI,2BALuB,CAKvB,WAAW,CAAC;EACR,MAAM,EAAE,KAAK;EACb,qBAAqB,EAAE,GAAG;EAC1B,kBAAkB,EAAE,GAAG;EACvB,aAAa,EAAE,GAAG;CACrB;;AAVL,AAYI,2BAZuB,CAYvB,WAAW,CAAC;EACR,OAAO,EAAE,YAAY;CACxB",
-    "sources": [
-        "redux-ace-editor.scss"
-    ],
-    "names": [],
-    "file": "redux-ace-editor.css"
-}

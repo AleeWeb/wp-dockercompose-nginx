@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,aAAa;CACzB;;AAED,AAAA,qBAAqB,CAAC;EAClB,gBAAgB,EAAE,OAAO;CAC5B",
-    "sources": [
-        "redux-date.scss"
-    ],
-    "names": [],
-    "file": "redux-date.css"
-}
